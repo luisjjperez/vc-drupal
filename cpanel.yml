@@ -1,0 +1,5 @@
+---
+  deployment:
+    tasks:
+      - export DEPLOYPATH=/home/veracruzdosherma/public_html/drupal/
+      -/bin/rsync -av . $DEPLOYPATH
