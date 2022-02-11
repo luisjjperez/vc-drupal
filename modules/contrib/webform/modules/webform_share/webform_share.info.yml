@@ -1,0 +1,12 @@
+name: 'Webform Share'
+type: module
+description: 'Allows webforms to be shared on other websites using an iframe.'
+package: 'Webform'
+core_version_requirement: ^9.2
+dependencies:
+  - 'webform:webform'
+
+# Information added by Drupal.org packaging script on 2021-12-29
+version: '6.2.0-beta1'
+project: 'webform'
+datestamp: 1640795834

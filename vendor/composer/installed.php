@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.5',
-        'version' => '9.3.5.0',
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a7b7ad06848b961a77f613db261729b954ff5c17',
+        'reference' => '77eabae47f349fad1bf68ade4d4a31b3197f20c2',
         'name' => 'drupal/legacy-project',
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -530,12 +530,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '9.3.5',
-            'version' => '9.3.5.0',
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a7b7ad06848b961a77f613db261729b954ff5c17',
+            'reference' => '77eabae47f349fad1bf68ade4d4a31b3197f20c2',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -783,6 +783,15 @@
             'replaced' => array(
                 0 => '9.3.5',
             ),
+        ),
+        'drupal/webform' => array(
+            'pretty_version' => '6.2.0-beta1',
+            'version' => '6.2.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/webform',
+            'aliases' => array(),
+            'reference' => '6.2.0-beta1',
+            'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
             'dev_requirement' => false,
