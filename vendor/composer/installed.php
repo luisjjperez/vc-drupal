@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '77eabae47f349fad1bf68ade4d4a31b3197f20c2',
+        'reference' => 'ef461e909d8740d9a01aae4ae9330ed104e9574b',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -62,6 +62,15 @@
             'install_path' => __DIR__ . '/../doctrine/reflection',
             'aliases' => array(),
             'reference' => 'fa587178be682efe90d005e3a322590d6ebb59a5',
+            'dev_requirement' => false,
+        ),
+        'dompdf/dompdf' => array(
+            'pretty_version' => 'v1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dompdf/dompdf',
+            'aliases' => array(),
+            'reference' => '60b704331479a69e9bcdb3496da2315b5c4f94fd',
             'dev_requirement' => false,
         ),
         'drupal/action' => array(
@@ -201,6 +210,15 @@
             'replaced' => array(
                 0 => '9.3.5',
             ),
+        ),
+        'drupal/cookies' => array(
+            'pretty_version' => '1.0.17',
+            'version' => '1.0.17.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/cookies',
+            'aliases' => array(),
+            'reference' => '1.0.17',
+            'dev_requirement' => false,
         ),
         'drupal/core' => array(
             'pretty_version' => '9.3.5',
@@ -427,6 +445,15 @@
                 0 => '9.3.5',
             ),
         ),
+        'drupal/entity_print' => array(
+            'pretty_version' => '2.4.0',
+            'version' => '2.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/entity_print',
+            'aliases' => array(),
+            'reference' => '8.x-2.4',
+            'dev_requirement' => false,
+        ),
         'drupal/entity_reference' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -535,7 +562,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '77eabae47f349fad1bf68ade4d4a31b3197f20c2',
+            'reference' => 'ef461e909d8740d9a01aae4ae9330ed104e9574b',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -841,6 +868,15 @@
             'reference' => '1afdd860a2566ed3c2b0b4a3de6e23434a79ec85',
             'dev_requirement' => false,
         ),
+        'jfeltkamp/cookiesjsr' => array(
+            'pretty_version' => '1.0.12',
+            'version' => '1.0.12.0',
+            'type' => 'drupal-library',
+            'install_path' => __DIR__ . '/../../libraries/cookiesjsr',
+            'aliases' => array(),
+            'reference' => '2bade62505d0c4f7689f10418e6b3fdd1790b10b',
+            'dev_requirement' => false,
+        ),
         'laminas/laminas-diactoros' => array(
             'pretty_version' => '2.8.0',
             'version' => '2.8.0.0',
@@ -920,6 +956,24 @@
             'install_path' => __DIR__ . '/../pear/pear_exception',
             'aliases' => array(),
             'reference' => 'b14fbe2ddb0b9f94f5b24cf08783d599f776fff0',
+            'dev_requirement' => false,
+        ),
+        'phenx/php-font-lib' => array(
+            'pretty_version' => '0.5.4',
+            'version' => '0.5.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phenx/php-font-lib',
+            'aliases' => array(),
+            'reference' => 'dd448ad1ce34c63d09baccd05415e361300c35b4',
+            'dev_requirement' => false,
+        ),
+        'phenx/php-svg-lib' => array(
+            'pretty_version' => 'v0.3.3',
+            'version' => '0.3.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phenx/php-svg-lib',
+            'aliases' => array(),
+            'reference' => '5fa61b65e612ce1ae15f69b3d223cb14ecc60e32',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(
@@ -1017,6 +1071,15 @@
             'replaced' => array(
                 0 => 'v1.10.11',
             ),
+        ),
+        'sabberworm/php-css-parser' => array(
+            'pretty_version' => '8.4.0',
+            'version' => '8.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sabberworm/php-css-parser',
+            'aliases' => array(),
+            'reference' => 'e41d2140031d533348b2192a83f02d8dd8a71d30',
+            'dev_requirement' => false,
         ),
         'shama/baton' => array(
             'dev_requirement' => false,
