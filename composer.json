@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/entity_print": "^2.4",
+        "drupal/views_bootstrap": "^4.3",
         "drupal/webform": "^6.2@beta"
     },
     "conflict": {

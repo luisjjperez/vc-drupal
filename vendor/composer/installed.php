@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'eb44893287d556be50fa6fb2dea70e0ffaaba812',
+        'reference' => '71cbeeb507bf16b6d2cafad9f087d57bdc2bc60b',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -571,7 +571,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'eb44893287d556be50fa6fb2dea70e0ffaaba812',
+            'reference' => '71cbeeb507bf16b6d2cafad9f087d57bdc2bc60b',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -813,6 +813,15 @@
             'replaced' => array(
                 0 => '9.3.5',
             ),
+        ),
+        'drupal/views_bootstrap' => array(
+            'pretty_version' => '4.3.0',
+            'version' => '4.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/views_bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-4.3',
+            'dev_requirement' => false,
         ),
         'drupal/views_ui' => array(
             'dev_requirement' => false,
