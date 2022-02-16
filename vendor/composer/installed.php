@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2f23f0eb8b5d0a695d0c906e68f74a62a5985dee',
+        'reference' => '32479ba19dea167e93cd6f55a4db69961a7984c1',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -141,6 +141,15 @@
             'replaced' => array(
                 0 => '9.3.5',
             ),
+        ),
+        'drupal/bootstrap5' => array(
+            'pretty_version' => '1.1.3',
+            'version' => '1.1.3.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/bootstrap5',
+            'aliases' => array(),
+            'reference' => '1.1.3',
+            'dev_requirement' => false,
         ),
         'drupal/bootstrap_business' => array(
             'pretty_version' => '1.0.0-beta4',
@@ -616,7 +625,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2f23f0eb8b5d0a695d0c906e68f74a62a5985dee',
+            'reference' => '32479ba19dea167e93cd6f55a4db69961a7984c1',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
