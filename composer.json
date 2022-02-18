@@ -32,7 +32,8 @@
         "drupal/vartheme_bs5": "^1.0@beta",
         "drupal/views_bootstrap": "^4.3",
         "drupal/webform": "^6.2@beta",
-        "drupal/webform_views": "^5.0@alpha"
+        "drupal/webform_views": "^5.0@alpha",
+        "drupal/whatsapp_bubble": "^1.0@beta"
     },
     "conflict": {
         "drupal/drupal": "*"

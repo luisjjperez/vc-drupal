@@ -1,0 +1,7 @@
+whatsapp_bubble.whatsapp_bubble_config_form:
+  title: 'Whatsapp Bubble Config'
+  route_name: whatsapp_bubble.whatsapp_bubble_config_form
+  description: 'Whatsapp button configuration'
+  parent: system.admin_config_system
+  weight: 99
+

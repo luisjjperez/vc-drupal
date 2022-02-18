@@ -629,10 +629,6 @@ webform.element.date:
   css:
     component:
       css/webform.element.date.css: {}
-  js:
-    js/webform.element.date.js: {}
-  dependencies:
-    - core/drupal.date
 
 webform.element.datelist:
   version: VERSION
@@ -975,6 +971,7 @@ webform.element.time:
     js/webform.element.time.js: {}
   dependencies:
     - core/drupal
+    - core/modernizr
     - webform/libraries.jquery.timepicker
 
 webform.element.video_file:
@@ -1300,9 +1297,6 @@ libraries.tippyjs:
   cdn:
     /libraries/tippyjs/6.x/: https://unpkg.com/tippy.js@6.2.6/dist/
   js:
-    /libraries/tippyjs/6.x/tippy.umd.min.js: { minified: true }
-  css:
-    component:
-      /libraries/tippyjs/6.x/tippy.css: {}
+    /libraries/tippyjs/6.x/tippy-bundle.umd.min.js: { minified: true }
   dependencies:
     - core/popperjs

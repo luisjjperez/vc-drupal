@@ -2070,18 +2070,18 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.2.0-beta1",
-            "version_normalized": "6.2.0.0-beta1",
+            "version": "6.2.0-beta2",
+            "version_normalized": "6.2.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.2.0-beta1"
+                "reference": "6.2.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.2.0-beta1.zip",
-                "reference": "6.2.0-beta1",
-                "shasum": "5ba1a6e45a1056e9c1eec81d6b538097d5377ba2"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.2.0-beta2.zip",
+                "reference": "6.2.0-beta2",
+                "shasum": "d934e0e240bda58bcf1fc196207606af14199148"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -2129,8 +2129,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.2.0-beta1",
-                    "datestamp": "1640795906",
+                    "version": "6.2.0-beta2",
+                    "datestamp": "1644940970",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2245,6 +2245,57 @@
                 "source": "https://git.drupalcode.org/project/webform_views"
             },
             "install-path": "../../modules/contrib/webform_views"
+        },
+        {
+            "name": "drupal/whatsapp_bubble",
+            "version": "1.0.0-beta2",
+            "version_normalized": "1.0.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/whatsapp_bubble.git",
+                "reference": "1.0.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/whatsapp_bubble-1.0.0-beta2.zip",
+                "reference": "1.0.0-beta2",
+                "shasum": "62dd73e074affa2a0d4f7bb8472ac557184317f8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta2",
+                    "datestamp": "1594516843",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "obiwankenobi",
+                    "homepage": "https://www.drupal.org/user/103029"
+                }
+            ],
+            "description": "Displays a floating whatsapp call link.",
+            "homepage": "https://www.drupal.org/project/whatsapp_bubble",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/whatsapp_bubble",
+                "issues": "https://www.drupal.org/project/issues/whatsapp_bubble"
+            },
+            "install-path": "../../modules/contrib/whatsapp_bubble"
         },
         {
             "name": "egulias/email-validator",

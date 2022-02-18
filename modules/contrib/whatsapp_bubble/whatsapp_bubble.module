@@ -1,0 +1,80 @@
+<?php
+
+/**
+ * @file
+ * Contains whatsapp_bubble.module.
+ */
+
+use Drupal\Core\DependencyInjection\ContainerNotInitializedException;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Symfony\Component\DependencyInjection\Exception\ServiceCircularReferenceException;
+use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
+
+/**
+ * Implements hook_help().
+ */
+function whatsapp_bubble_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the whatsapp_bubble module.
+    case 'help.page.whatsapp_bubble':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Displays a floating whatsapp link.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_page_bottom().
+ */
+function whatsapp_bubble_page_bottom(array &$page_bottom) {
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+    return;
+  }
+  $configs = \Drupal::config('whatsapp_bubble.config');
+
+  $alignment = $configs->get('alignment') ?: 'right';
+  $valignment = $configs->get('valignment') ?: 'bottom';
+  $number = $configs->get('phone_number') ?: '';
+  $message = $configs->get('message') ?: '';
+  $inverse = $configs->get('is_inverse') ? 'inverse' : '';
+  $message = urlencode($message);
+
+  $page_bottom['whatsapp_bubble'] = [
+    '#theme' => 'wab',
+    '#phone_number' => $number,
+    '#message' => $message,
+    '#attributes' => [
+      'class' => ['whatsapp-bubble', $alignment, $valignment, $inverse],
+    ],
+    '#cache' => [
+      'tags' => ['config:whatsapp_bubble.config']
+    ],
+  ];
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function whatsapp_bubble_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'whatsapp_bubble/main';
+}
+
+/**
+ * Implements hook_theme();
+ */
+function whatsapp_bubble_theme() {
+  return [
+    'wab' => [
+      'variables' => [
+        'phone_number' => NULL,
+        'message'      => NULL,
+        'alignment'    => NULL,
+        'valignment'   => NULL,
+        'attributes'   => [],
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,14 @@
+{
+  "name": "drupal/whatsapp_bubble",
+  "type": "drupal-module",
+  "description": "Displays a floating whatsapp call link.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/whatsapp_bubble",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/whatsapp_bubble",
+    "source": "http://cgit.drupalcode.org/whatsapp_bubble"
+  },
+  "require": { }
+}

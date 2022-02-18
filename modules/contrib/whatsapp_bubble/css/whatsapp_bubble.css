@@ -1,0 +1,50 @@
+.whatsapp-bubble {
+  position: fixed;
+  z-index: 1700;
+}
+
+.whatsapp-bubble > a {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 12px;
+  color: gray;
+}
+.whatsapp-bubble.inverse > a {
+  background-color: #00e479;
+}
+
+.whatsapp-bubble svg.wab {
+  color: #00e479;
+  height: 55px;
+  width: 30px;
+}
+.whatsapp-bubble.inverse svg.wab {
+  color: white;
+}
+
+/* Horizontal alignment */
+.whatsapp-bubble.right {
+  right: 20px;
+}
+.whatsapp-bubble.left {
+  left: 20px;
+}
+.whatsapp-bubble.center {
+  left: calc(50vw - 25px);
+}
+
+/* Vertical alignment */
+.whatsapp-bubble.top {
+  top: 70px;
+}
+.whatsapp-bubble.middle {
+  top: calc(50vh - 25px);
+}
+.whatsapp-bubble.bottom {
+  bottom: 70px;
+}

@@ -1,0 +1,12 @@
+name: 'Whatsapp Bubble'
+type: module
+description: 'Displays a floating whatsapp call link.'
+core: 8.x
+package: 'Custom'
+
+core_version_requirement: ^8 || ^9
+
+# Information added by Drupal.org packaging script on 2020-07-12
+version: '1.0.0-beta2'
+project: 'whatsapp_bubble'
+datestamp: 1594516845
