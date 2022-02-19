@@ -1,0 +1,24 @@
+# See docs at https://www.drupal.org/drupalorg/docs/drupal-ci/customizing-drupalci-testing-for-projects
+build:
+  assessment:
+    validate_codebase:
+      phplint:
+      container_composer:
+      csslint:
+      eslint:
+      phpcs:
+      # Static analysis for uses of @deprecated code.
+      phpstan:
+        halt-on-fail: false
+    testing:
+      run_tests.functional:
+        types: 'PHPUnit-Functional'
+        testgroups: 'scheduler,scheduler_api'
+        # Change testgroups to '--all' if Typed Data reverts to being supported
+        # at 8.x. See https://www.drupal.org/project/scheduler/issues/3248470
+        suppress-deprecations: true
+      run_tests.js:
+        types: 'PHPUnit-FunctionalJavascript'
+        suppress-deprecations: true
+        concurrency: 1
+        halt-on-fail: false

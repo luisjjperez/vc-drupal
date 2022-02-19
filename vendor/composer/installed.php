@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd22896c076a4d7b272fb5284588ec194628b8140',
+        'reference' => '5428687fcbc9bbc77d3e24e731e42c4b7a3146ad',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -643,7 +643,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd22896c076a4d7b272fb5284588ec194628b8140',
+            'reference' => '5428687fcbc9bbc77d3e24e731e42c4b7a3146ad',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -789,6 +789,15 @@
             'replaced' => array(
                 0 => '9.3.6',
             ),
+        ),
+        'drupal/scheduler' => array(
+            'pretty_version' => '2.0.0-alpha1',
+            'version' => '2.0.0.0-alpha1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/scheduler',
+            'aliases' => array(),
+            'reference' => '2.0.0-alpha1',
+            'dev_requirement' => false,
         ),
         'drupal/search' => array(
             'dev_requirement' => false,
