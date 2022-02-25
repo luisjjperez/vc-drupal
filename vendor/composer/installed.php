@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2c7c57816c891b77b674c4c58c6e4e657401ad0e',
+        'reference' => 'f6ec4aa508f6df39cec34dccdff1276459be8575',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -742,7 +742,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2c7c57816c891b77b674c4c58c6e4e657401ad0e',
+            'reference' => 'f6ec4aa508f6df39cec34dccdff1276459be8575',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1052,6 +1052,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/webform',
             'aliases' => array(),
             'reference' => '6.2.0-beta2',
+            'dev_requirement' => false,
+        ),
+        'drupal/webform_paragraphs' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/webform_paragraphs',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
             'dev_requirement' => false,
         ),
         'drupal/webform_views' => array(

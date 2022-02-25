@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ *  Adds a paragraph reference to the webforms when they are submitted from a
+ *  paragraph context.
+ */
+
+/**
+ * Implements hook_entity_base_field_info_alter().
+ */
+function webform_paragraphs_entity_base_field_info(\Drupal\Core\Entity\EntityTypeInterface $entity_type) {
+  if ($entity_type->id() == 'webform_submission') {
+    $fields = [];
+    // Field that points to a paragraph, if the submission was made in that
+    // context. The entity_id reference will still point to the node.
+    $fields['paragraph_id'] = \Drupal\Core\Field\BaseFieldDefinition::create('string')
+      ->setLabel(t('Paragraph context'))
+      ->setDescription(t('The ID of the paragraph of which this webform submission was submitted from.'))
+      ->setSetting('max_length', 255);
+    return $fields;
+  }
+}

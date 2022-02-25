@@ -1,0 +1,13 @@
+name: Webform Paragraphs
+description: Adds a paragraph reference to the webforms when they are submitted from a paragraph context.
+package: Webform
+type: module
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - webform:webform
+  - paragraphs:paragraphs
+
+# Information added by Drupal.org packaging script on 2021-09-18
+version: '8.x-1.1'
+project: 'webform_paragraphs'
+datestamp: 1631965556
