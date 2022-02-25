@@ -28,6 +28,7 @@
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/diba_carousel": "^2.0",
         "drupal/entity_print": "^2.4",
+        "drupal/event": "^1.0@alpha",
         "drupal/responsive_menus": "^1.0@alpha",
         "drupal/scheduler": "^2.0@alpha",
         "drupal/vartheme_bs5": "^1.0@beta",
