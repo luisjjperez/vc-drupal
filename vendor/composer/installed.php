@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5428687fcbc9bbc77d3e24e731e42c4b7a3146ad',
+        'reference' => 'e0ed60f10fb16f4131de72d4c1593e48323bb132',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -17,6 +17,15 @@
             'install_path' => __DIR__ . '/../asm89/stack-cors',
             'aliases' => array(),
             'reference' => 'b9c31def6a83f84b4d4a40d35996d375755f0e08',
+            'dev_requirement' => false,
+        ),
+        'caxy/php-htmldiff' => array(
+            'pretty_version' => 'v0.1.14',
+            'version' => '0.1.14.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../caxy/php-htmldiff',
+            'aliases' => array(),
+            'reference' => '3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5',
             'dev_requirement' => false,
         ),
         'composer/installers' => array(
@@ -505,6 +514,15 @@
             'reference' => '2.0.0',
             'dev_requirement' => false,
         ),
+        'drupal/diff' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/diff',
+            'aliases' => array(),
+            'reference' => '8.x-1.0',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -516,6 +534,42 @@
             'replaced' => array(
                 0 => '9.3.6',
             ),
+        ),
+        'drupal/embed' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/embed',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
+        'drupal/entity' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/entity',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
+        ),
+        'drupal/entity_browser' => array(
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/entity_browser',
+            'aliases' => array(),
+            'reference' => '8.x-2.6',
+            'dev_requirement' => false,
+        ),
+        'drupal/entity_embed' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/entity_embed',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
         ),
         'drupal/entity_print' => array(
             'pretty_version' => '2.4.0',
@@ -541,6 +595,15 @@
             'reference' => '8.x-1.9',
             'dev_requirement' => false,
         ),
+        'drupal/event' => array(
+            'pretty_version' => '1.0.0-alpha2',
+            'version' => '1.0.0.0-alpha2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/event',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-alpha2',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -552,6 +615,15 @@
             'replaced' => array(
                 0 => '9.3.6',
             ),
+        ),
+        'drupal/field_permissions' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/field_permissions',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
         ),
         'drupal/field_ui' => array(
             'dev_requirement' => false,
@@ -643,7 +715,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5428687fcbc9bbc77d3e24e731e42c4b7a3146ad',
+            'reference' => 'e0ed60f10fb16f4131de72d4c1593e48323bb132',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -994,6 +1066,15 @@
             'reference' => 'ee0db30118f661fb166bcffbf5d82032df484697',
             'dev_requirement' => false,
         ),
+        'ezyang/htmlpurifier' => array(
+            'pretty_version' => 'v4.14.0',
+            'version' => '4.14.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ezyang/htmlpurifier',
+            'aliases' => array(),
+            'reference' => '12ab42bd6e742c70c0a52f7b82477fcd44e64b75',
+            'dev_requirement' => false,
+        ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '6.5.5',
             'version' => '6.5.5.0',
@@ -1073,6 +1154,15 @@
             'install_path' => __DIR__ . '/../masterminds/html5',
             'aliases' => array(),
             'reference' => 'f640ac1bdddff06ea333a920c95bbad8872429ab',
+            'dev_requirement' => false,
+        ),
+        'mkalkbrenner/php-htmldiff-advanced' => array(
+            'pretty_version' => '0.0.8',
+            'version' => '0.0.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mkalkbrenner/php-htmldiff-advanced',
+            'aliases' => array(),
+            'reference' => '3a714b48c9c3d3730baaf6d3949691e654cd37c9',
             'dev_requirement' => false,
         ),
         'oomphinc/composer-installers-extender' => array(
