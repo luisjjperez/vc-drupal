@@ -28,15 +28,13 @@
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/diba_carousel": "^2.0",
         "drupal/entity_print": "^2.4",
-        "drupal/event": "^1.0@alpha",
         "drupal/responsive_menus": "^1.0@alpha",
         "drupal/scheduler": "^2.0@alpha",
         "drupal/vartheme_bs5": "^1.0@beta",
         "drupal/views_bootstrap": "^4.3",
         "drupal/webform": "^6.2@beta",
         "drupal/webform_views": "^5.0@alpha",
-        "drupal/whatsapp_bubble": "^1.0@beta",
-        "drush/drush": "^10.6"
+        "drupal/whatsapp_bubble": "^1.0@beta"
     },
     "conflict": {
         "drupal/drupal": "*"
